@@ -11,7 +11,7 @@ if (isNaN(num1) || isNaN(num2) || isNaN(num3)) {
     })
     console.log("Orden de mayor a menor:", numerosOrdenados[2] + ", " + numerosOrdenados[1] + ", " + numerosOrdenados[0]);
     console.log("Orden de menor a mayor:", numerosOrdenados[0] + ", " + numerosOrdenados[1] + ", " + numerosOrdenados[2]);
-
+    console.log("El numero del centro es:", numerosOrdenados[1]);
     if (num1 === num2 && num1 === num3) {
         console.log("Los números son iguales.");
     }
